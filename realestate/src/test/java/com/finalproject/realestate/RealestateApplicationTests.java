@@ -1,10 +1,10 @@
-package com.example.wallet;
+package com.finalproject.realestate;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WalletApplicationTests {
+class RealestateApplicationTests {
 
 	@Test
 	void contextLoads() {
