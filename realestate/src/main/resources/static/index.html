@@ -1,14 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hant-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>房地產總覽</title>
-    <link rel="stylesheet" href="/vendor/tabler/tabler.min.css">
-</head>
-<body>
-    <h1>房地產</h1>
+    <link rel="stylesheet" href="/vendor/tabler/tabler.min.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="page-wrapper">
+        <div class="page-header">
+          <div class="container-xl">
+            <div class="row align-items-center">
+              <div class="col">
+                <h1 class="page-title">房地產總覽</h1>
+              </div>
+              <div class="col-auto">
+                <button class="btn btn-primary" type="button">新增房產</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="page-body">
+          <div class="container-xl">
+            <div class="row row-cards row-deck">
+              <div class="col-sm-6 col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="subheader">房產總金額</div>
+                    <div class="h1">NT$4,280萬</div>
+                    <div class="text-secondary">3筆房產</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="subheader">總房貸餘額</div>
+                    <div class="h1">NT$1,988萬</div>
+                    <div class="text-secondary">貸款成數46.4%</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="subheader">總淨值</div>
+                    <div class="h1">NT$2,292萬</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="/vendor/tabler/tabler.min.js"></script>
-</body>
+  </body>
 </html>
